@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ant Colony Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Amazing World of Ant Colonies</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Ants</a></li>
+                <li><a href="#colony">Colony Structure</a></li>
+                <li><a href="#simulation">Ant Simulation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Ants</h2>
+            <div class="content-box">
+                <img src="https://images.unsplash.com/photo-1566407528258-608d99ea8edf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ant close-up">
+                <div>
+                    <p>Ants are among the most successful creatures on Earth, with over 12,000 known species.</p>
+                    <p>They live in complex colonies that can contain millions of individuals working together.</p>
+                    <p>Some ant colonies can live for decades, with queens living up to 30 years!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="colony">
+            <h2>Colony Structure</h2>
+            <div class="content-box">
+                <div>
+                    <h3>The Queen</h3>
+                    <p>The colony's founder and primary egg-layer.</p>
+                    
+                    <h3>Workers</h3>
+                    <p>Sterile females who forage, defend, and care for the young.</p>
+                    
+                    <h3>Soldiers</h3>
+                    <p>Specialized workers with large heads and powerful jaws for defense.</p>
+                    
+                    <h3>Males</h3>
+                    <p>Short-lived individuals whose primary role is to mate with new queens.</p>
+                </div>
+                <div class="colony-diagram">
+                    <div class="chamber queen">Queen's Chamber</div>
+                    <div class="tunnel"></div>
+                    <div class="chamber nursery">Nursery</div>
+                    <div class="tunnel"></div>
+                    <div class="chamber food">Food Storage</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="simulation">
+            <h2>Ant Simulation</h2>
+            <p>Click the button below to start an ant simulation!</p>
+            <button id="start-simulation">Start Simulation</button>
+            <canvas id="ant-canvas" width="600" height="400"></canvas>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ant Colony Explorer</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Introducing GPT-4o: OpenAI's new flagship multimodal model",
+    "url": "https://openai.com/blog/hello-gpt-4o",
+    "scraped_at": "2025-09-15T11:50:50.262009"
+  },
+  {
+    "title": "OpenAI DevDay: Opening keynote",
+    "url": "https://openai.com/blog/devday-2023",
+    "scraped_at": "2025-09-15T11:50:50.262018"
+  },
+  {
+    "title": "Custom instructions for ChatGPT",
+    "url": "https://openai.com/blog/custom-instructions-for-chatgpt",
+    "scraped_at": "2025-09-15T11:50:50.262020"
+  },
+  {
+    "title": "Function calling and other API updates",
+    "url": "https://openai.com/blog/function-calling-and-other-api-updates",
+    "scraped_at": "2025-09-15T11:50:50.262022"
+  },
+  {
+    "title": "GPT-4 is here",
+    "url": "https://openai.com/blog/gpt-4",
+    "scraped_at": "2025-09-15T11:50:50.262023"
+  }
+]

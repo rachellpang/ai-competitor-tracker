@@ -1,0 +1,39 @@
+{
+  "competitors": {
+    "OpenAI": {
+      "url": "https://openai.com/blog",
+      "selectors": [
+        "h3 a",
+        ".blog-post-title"
+      ]
+    },
+    "Google AI": {
+      "url": "https://ai.googleblog.com/",
+      "selectors": [
+        ".post-title a",
+        "h2.entry-title a"
+      ]
+    },
+    "Microsoft AI": {
+      "url": "https://blogs.microsoft.com/ai/",
+      "selectors": [
+        ".entry-title a",
+        "h2 a"
+      ]
+    },
+    "Anthropic": {
+      "url": "https://www.anthropic.com/news",
+      "selectors": [
+        "h3 a",
+        ".news-item h3"
+      ]
+    }
+  },
+  "delay_between_requests": 2,
+  "max_articles_per_site": 10,
+  "report_settings": {
+    "format": "markdown",
+    "include_timestamps": true,
+    "max_articles_in_report": 5
+  }
+}
